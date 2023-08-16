@@ -1,0 +1,4 @@
+<launch>
+    <include file="$(find ublox_gps)/launch/ublox_gps.launch" />
+    <node pkg="zed_f9k" type="zed_f9k_node" name="zed_f9k_node" output="screen" />
+</launch>

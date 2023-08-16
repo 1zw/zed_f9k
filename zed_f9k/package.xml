@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package>
+  <name>zed_f9k</name>
+  <version>1.4.1</version>
+  <description>
+
+    zed_f9k for air lab
+
+  </description>
+  <author>Wizard</author>
+  <maintainer email="hitwizardicu@gmail.com">Veronica Lane</maintainer>
+  <license>MIT</license>
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>roscpp</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>zed_f9k_msg</build_depend>
+
+  <run_depend>sensor_msgs</run_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>std_msgs</run_depend>
+  <run_depend>geometry_msgs</run_depend>
+  <run_depend>zed_f9k_msg</run_depend>
+
+
+</package>

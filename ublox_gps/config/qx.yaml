@@ -1,0 +1,29 @@
+# NMEA dummy data
+dummyNMEA: "$GPGSV,2,1,07,22,,,47,25,52,064,48,28,69,306,46,31,42,266,42,1*5F"
+
+# Username for RTCM correction service
+username: "qxxsnw006025"
+
+# Password for RTCM correction service
+password: "ac656f6"
+
+# Port for the RTCM correction service
+port: 8002
+
+# Ntrip Service IP
+ip: "203.107.45.154"
+
+# Ntrip Service Mountpoint
+mountpoint: "AUTO"
+
+# Another Ntrip Service Mountpoint
+mountpoint1: "RTCM32_GGB"
+
+# Serial port
+portx: "/dev/ttyUSB0"
+
+# Baud rate for the serial port
+bps: 38400
+
+# Timeout for the serial port
+timex: 5
